@@ -1,0 +1,48 @@
+.details-container {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+.form-box {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-box {
+  text-align: center;
+}
+
+.success-box img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.success-box h2 {
+  color: #2563eb;
+  margin: 10px 0;
+}
+
+.success-box p {
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.success-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.success-button:hover {
+  background-color: #1d4ed8;
+}

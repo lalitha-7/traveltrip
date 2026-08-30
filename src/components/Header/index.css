@@ -1,0 +1,118 @@
+
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  background-color: #ffffff;
+  color: #1f2937;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Left side */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Travel icon */
+.travel-icon {
+  font-size: 28px;
+}
+
+/* Right side */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Theme button */
+.theme-button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+
+  background-color: #f3f4f6;
+  color: #1f2937;
+
+  font-size: 20px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.theme-button:hover {
+  transform: scale(1.08);
+}
+
+/* Logout button */
+.logout-button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+
+  background-color: #ef4444;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
+
+/* ========================= */
+/* DARK MODE */
+/* ========================= */
+
+.app.dark-mode .header {
+  background-color: #1f2937;
+  color: #ffffff;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.app.dark-mode .theme-button {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.app.dark-mode .logout-button {
+  background-color: #dc2626;
+}
+
+.app.dark-mode .logout-button:hover {
+  background-color: #b91c1c;
+}
+
